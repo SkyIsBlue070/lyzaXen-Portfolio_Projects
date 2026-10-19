@@ -1,0 +1,3 @@
+# Draft safety: replace with Allow: / when your identity and content are final.
+User-agent: *
+Disallow: /

@@ -1,3 +1,9 @@
+# LyzaXen portfolio and project collection
+
+The complete portfolio source is in [portfolio/](portfolio/), including case studies, demos and the Formspree enquiry relay. See [DEPLOYMENT-SETUP.md](DEPLOYMENT-SETUP.md) to connect the existing Netlify site.
+
+---
+
 # LyzaXen — web portfolio starter projects
 
 Two independent concept builds: Afterhours and SignalDesk. These are interactive first versions, not completed production services. Read PROJECT_PLAN.md for scope, AI plans and remaining checks.

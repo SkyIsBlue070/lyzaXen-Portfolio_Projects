@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eee5">
+  <meta name="description" content="Afterhours: an independent café and gathering-space concept. Explore the menu and plan a gathering. A portfolio project by LyzaXen.">
+  <title>Afterhours — A little longer, a little slower.</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="demo-bar">AN INDEPENDENT CONCEPT BY LYZAXEN <span>FICTIONAL BUSINESS · INTERACTIVE DEMO</span></div>
+  <header class="nav" id="site-nav">
+    <div class="nav-inner">
+      <a class="wordmark" href="#"><span class="wordmark-mark" aria-hidden="true">✳</span>afterhours</a>
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <span class="nav-pill" aria-hidden="true"></span>
+        <a href="#menu" data-section="menu">The menu</a>
+        <a href="#space" data-section="space">The space</a>
+        <a href="#gather" data-section="gather">Gather here</a>
+        <button class="nav-cta nav-cta-panel" data-open="event">Plan a gathering <span class="arrow" aria-hidden="true">↗</span></button>
+      </nav>
+      <button class="nav-cta nav-cta-main" data-open="event">Plan a gathering <span class="arrow" aria-hidden="true">↗</span></button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span class="sr-only">Menu</span><span class="burger" aria-hidden="true"><i></i><i></i></span></button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">COFFEE. COMPANY. NO PARTICULAR HURRY.</p><h1>A little longer.<br>A little <em>slower.</em></h1><div class="hero-bottom"><p>For the conversations that need another cup.<br>Your next favourite corner of Kolkata, imagined.</p><a class="round-link" href="#menu" aria-label="Explore the menu"><span aria-hidden="true">↓</span></a></div></div>
+      <div class="hero-photo"><img src="assets/cafe.svg" alt="Original illustration of a sunlit café with wooden tables, plants and warm pendant lights" fetchpriority="high"><div class="photo-note"><span>GOOD THINGS TAKE A MOMENT.</span><span>STAY FOR ONE MORE.</span></div><div class="stamp" role="img" aria-label="Come for the coffee. Stay.">COME FOR<br>THE COFFEE.<br><b>STAY.</b></div></div>
+      <div class="hero-caption"><span>01 / YOUR NEW USUAL</span><span>A NEIGHBOURHOOD CAFÉ CONCEPT</span><span>EST. IN OUR IMAGINATION, 2026 ↗</span></div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><div class="ticker-set"><span>NO RUSH.</span><i>✳</i><span>GOOD COFFEE.</span><i>✳</i><span>BETTER COMPANY.</span><i>✳</i><span>ONE MORE CUP?</span><i>✳</i></div><div class="ticker-set"><span>NO RUSH.</span><i>✳</i><span>GOOD COFFEE.</span><i>✳</i><span>BETTER COMPANY.</span><i>✳</i><span>ONE MORE CUP?</span><i>✳</i></div></div></div>
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-head" data-reveal><div><p class="eyebrow">02 / MADE FOR YOUR KIND OF DAY</p><h2 tabindex="-1">Small menu.<br><em>Big feelings.</em></h2></div><p>Something comforting. Something unexpected.<br>Everything worth sitting down for.</p></div>
+      <div class="menu-tools"><div class="tabs" role="group" aria-label="Filter menu"><button class="active" data-filter="all" aria-pressed="true">Everything</button><button data-filter="coffee" aria-pressed="false">Coffee</button><button data-filter="bites" aria-pressed="false">Little bites</button><button data-filter="sweet" aria-pressed="false">Something sweet</button></div><button class="text-link" data-open="match">Find my cup <span aria-hidden="true">✳</span></button></div>
+      <p class="sr-only" id="menu-status" aria-live="polite"></p>
+      <div class="menu-grid" id="menu-grid"></div>
+      <p class="fineprint">Illustrative menu and prices. Ingredients are listed for this concept only; they are not verified allergen guidance.</p>
+    </section>
+    <section class="space-section" id="space"><div class="space-photo"><img src="assets/coffee.svg" alt="Original overhead illustration of a flat white with heart-shaped latte art" loading="lazy"></div><div class="space-copy" data-reveal><p class="eyebrow">03 / ROOM TO JUST BE</p><h2>Bring a book.<br>Bring a friend.<br><em>Bring yourself.</em></h2><p>A sunlit table for your next big idea. A quiet corner for absolutely no ideas. Afterhours is a fictional neighbourhood space designed around the simple pleasure of being somewhere good.</p><div class="space-tags"><span>Slow mornings</span><span>Long conversations</span><span>Small gatherings</span></div></div></section>
+    <section class="gather section-pad" id="gather"><div data-reveal><p class="eyebrow">04 / A LITTLE OCCASION</p><h2>Your people.<br><em>Our place.</em></h2></div><div data-reveal><p>A birthday without the fuss. A team catch-up that actually feels like one. Plan a small gathering and leave with a clear inquiry brief.</p><button class="button dark" data-open="event">Plan a gathering <span>↗</span></button><p class="fineprint">Interactive planning demo. No booking or payment is made.</p></div></section>
+    <section class="closing"><div data-reveal><p>MORE THAN A COFFEE BREAK.</p><h2>See you<br><em>afterhours.</em> <span class="spin" aria-hidden="true">✳</span></h2><button class="button" data-open="visit">Make a little time <span>↗</span></button></div></section>
+  </main>
+  <footer><a class="wordmark" href="#">afterhours</a><p>Fictional café · Kolkata-inspired<br>Design & development by LyzaXen</p><a href="#main">BACK TO TOP ↑</a></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><button class="close" aria-label="Close dialog">×</button><div id="modal-content"></div></dialog>
+  <script src="app.js"></script>
+</body></html>
